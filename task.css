@@ -1,0 +1,84 @@
+.yash{
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  
+  border-radius: 50%;
+  /* background-color: blue; */
+  /* background: linear-gradient(blue,yellow ,green ,pink); */
+  /* background: linear-gradient(to right,blue,yellow); */
+  /* background: linear-gradient(90deg, blue, yellow); */
+  /* background: linear-gradient(blue 60%,  yellow 50%); */
+  /* background: radial-gradient(red,yellow); */
+  background: conic-gradient(
+    #ff0000 ,
+    #ff7f00 ,
+    #ffff00 ,
+    #00ff00 ,
+    #c21212 ,
+    #0000ff)
+
+}
+.kgf{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: auto;
+  
+  background: conic-gradient(
+    #ff0000 0 30deg,
+    #ff7f00 30deg 60deg,
+    #ffff00 60deg 90deg,
+    #00ff00 90deg 120deg,
+    #0000ff 120deg 150deg,
+    #4b0082 150deg 180deg,
+    #8b00ff 180deg 210deg,
+    #ff0000 210deg 240deg,
+    #ff7f00 240deg 270deg,
+    #ffff00 270deg 300deg,
+    #00ff00 300deg 330deg,
+    #0000ff 330deg 360deg
+  );
+}
+  
+.dog p{height: 200px;
+  width: 200px;
+  
+  
+  border: 5px solid black;
+  background-color: #011c1c;
+  text-overflow: clip;
+  text-transform: capitalize;
+  padding: 50px;
+  outline: auto;
+  
+  color: darkgoldenrod;
+  
+  
+
+}
+.dog p:hover{
+  color: aqua;
+}
+.dog p{
+  width: 50%;
+  height: 200px;
+  /* overflow: scroll; */
+  border-width:5px 20px 5px 20px;
+  border-style: solid;
+  border-color: rgb(110, 110, 124);
+  padding: 5px 10px 20ox 30px;
+  margin: 10px 40px 30px 40px;
+
+}
+.kirataka{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: auto;
+  border: red;
+  background: repeating-conic-gradient(from 0deg,
+  yellow 0deg 10deg,
+  red 10deg 20deg);
+
+}
